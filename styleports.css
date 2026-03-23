@@ -44,10 +44,6 @@ p {
     color: #ffac81;
 }
 
-.navbar .nav-link {
-  color: #7161ef;;          /* your desired color */
-}
-
 .navbar .nav-link:hover {
   color: #ffac81;          /* color when hovered */
 }
@@ -59,14 +55,10 @@ p {
   color: #7161ef;
   text-decoration: none;
 }
-
-.navbar .nav-link:hover {
-  color: #ffac81;
-}
-
 .navbar .nav-link.active {
   color: #7161ef;;
   font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
 }
 .navbar {
   background-color: black;   /* dark background */
