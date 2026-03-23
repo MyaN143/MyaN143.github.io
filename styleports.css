@@ -64,6 +64,13 @@ p {
     text-decoration: none;
     font-size: 15pt;
 }
-.custom-navbar {
-  background-color: #3498db !important;
+
+.navbar-nav .nav-link {
+    margin-right: 30px;
+    /* space between links */
+}
+
+.navbar-nav .nav-link:last-child {
+    margin-right: 0;
+    /* remove extra space after last link */
 }
