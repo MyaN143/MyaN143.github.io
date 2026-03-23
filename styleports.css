@@ -12,16 +12,9 @@ p {
     color: #7161ef;
     font-size: 15pt;
     font-family: 'Times New Roman', Times, serif;
-    border: 2px solid #7161ef;
-    /* border around the box */
     padding: 15px;
-    /* space inside the box */
     margin-top: 20px;
-    /* space above the box */
     background-color: #efd9ce;
-    /* light gray background */
-    border-radius: 8px;
-    /* rounded corners */
 }
 
 .bottom-left {
