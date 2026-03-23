@@ -1,12 +1,17 @@
-.image-grid img {
-    width: 100%;
-    /* fill the column width */
-    height: 250px;
-    /* all images same height */
-    object-fit: cover;
-    /* crop image nicely without stretching */
-    border-radius: 8px;
-    /* optional rounded corners */
-    margin-bottom: 15px;
-    /* spacing between rows */
+/* Make image wrapper a fixed height flex container */
+.image-wrapper {
+  height: 250px;           /* fixed height for all images */
+  overflow: hidden;         /* crop overflow */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;      /* spacing between rows */
+}
+
+/* Make images fill wrapper nicely */
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;        /* ensures image covers area without stretching */
+  border-radius: 8px;       /* optional rounded corners */
 }
