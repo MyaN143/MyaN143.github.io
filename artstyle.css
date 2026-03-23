@@ -1,0 +1,76 @@
+body {
+    background-color: #dec0f1;
+}
+
+h1 {
+    color: #7161ef;
+    font-size: 24pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    color: #7161ef;
+    font-size: 15pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bottom-left {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+}
+
+.resume-link {
+    color: #7161ef;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15pt;
+}
+
+.resume-link:hover {
+    color: #ffac81;
+}
+
+.bottom-left a {
+    color: #7161ef;
+    /* or any color you want */
+    text-decoration: none;
+    /* removes underline */
+}
+
+.bottom-left a:hover {
+    color: #ffac81;
+}
+
+.navbar .nav-link:hover {
+    color: #ffac81;
+    /* color when hovered */
+}
+
+.navbar .nav-link.active {
+    font-family: 'Times New Roman', Times, serif;
+    color: #7161ef;
+    /* color for the current page */
+    font-weight: bold;
+    /* optional for emphasis */
+    font-size: 15pt;
+}
+
+.navbar .nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    color: #7161ef;
+    text-decoration: none;
+    font-size: 15pt;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 30px;
+    /* space between links */
+}
+
+.navbar-nav .nav-link:last-child {
+    margin-right: 0;
+    /* remove extra space after last link */
+}

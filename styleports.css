@@ -41,6 +41,13 @@ p {
     /* removes underline */
 }
 
+.bottom-left {
+    border: 2px solid #7161ef;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
 .bottom-left a:hover {
     color: #ffac81;
 }
@@ -75,3 +82,4 @@ p {
     margin-right: 0;
     /* remove extra space after last link */
 }
+
