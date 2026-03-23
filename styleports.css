@@ -12,18 +12,32 @@ p {
     color: #7161ef;
     font-size: 15pt;
     font-family: 'Times New Roman', Times, serif;
-    border:salmon;
+    border: 2px solid black;
+    /* border around the box */
+    padding: 15px;
+    /* space inside the box */
+    margin-top: 20px;
+    /* space above the box */
+    background-color: #f2f2f2;
+    /* light gray background */
+    border-radius: 8px;
+    /* rounded corners */
 }
+
 .bottom-left {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  padding: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
 }
+
 .bottom-left a {
-  color: #7161ef;           /* or any color you want */
-  text-decoration: none;  /* removes underline */
+    color: #7161ef;
+    /* or any color you want */
+    text-decoration: none;
+    /* removes underline */
 }
+
 .bottom-left a:hover {
-  color: #ffac81;
+    color: #ffac81;
 }
