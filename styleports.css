@@ -22,15 +22,15 @@ p {
 }
 
 .resume-link {
-  color: #7161ef;         
-  text-decoration: none;
-  font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
-   font-size: 15pt;
+    color: #7161ef;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15pt;
 }
 
 .resume-link:hover {
-  color: #ffac81;       
+    color: #ffac81;
 }
 
 .bottom-left a {
@@ -42,4 +42,32 @@ p {
 
 .bottom-left a:hover {
     color: #ffac81;
+}
+
+.navbar .nav-link {
+  color: #FF5733;          /* your desired color */
+}
+
+.navbar .nav-link:hover {
+  color: #C70039;          /* color when hovered */
+}
+.navbar .nav-link.active {
+  color: #3498db;          /* color for the current page */
+  font-weight: bold;       /* optional for emphasis */
+}
+.navbar .nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar .nav-link:hover {
+  color: yellow;
+}
+
+.navbar .nav-link.active {
+  color: orange;
+  font-weight: bold;
+}
+.navbar {
+  background-color: #222;   /* dark background */
 }
