@@ -20,6 +20,6 @@ p {
     border-left: 4px solid #3498db;
     border-right: 4px solid #3498db;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 100px;
     /* optional */
 }
