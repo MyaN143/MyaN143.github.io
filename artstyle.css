@@ -1,46 +1,12 @@
-/* Wrapper for consistent size */
-.image-wrapper {
-    height: 80px;
-    /* same height for all images */
-    overflow: hidden;
-    /* crop extra parts */
-    position: relative;
-    margin-bottom: 15px;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-/* Make images fill wrapper */
-.image-wrapper img {
+.image-grid img {
     width: 100%;
-    height: 100%;
+    /* fill the column width */
+    height: 20px;
+    /* all images same height */
     object-fit: cover;
-    /* keeps aspect ratio, crops if needed */
-    transition: transform 0.5s ease;
-}
-
-/* Hover effect: zoom image */
-.image-wrapper:hover img {
-    transform: scale(1.1);
-}
-
-/* Optional overlay with arrow on hover */
-.image-wrapper::after {
-    content: '→';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 2rem;
-    opacity: 0;
-    transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-.image-wrapper:hover::after {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1.2);
-}
-.image-wrapper:hover {
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    /* crop image nicely without stretching */
+    border-radius: 8px;
+    /* optional rounded corners */
+    margin-bottom: 15px;
+    /* spacing between rows */
 }
