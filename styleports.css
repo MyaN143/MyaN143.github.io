@@ -52,14 +52,15 @@ p {
 .navbar .nav-link.active {
     font-family: 'Times New Roman', Times, serif;
     color: #7161ef;
-    ;
     /* color for the current page */
     font-weight: bold;
     /* optional for emphasis */
+    font-size: 15pt;
 }
 
 .navbar .nav-link {
     font-family: 'Times New Roman', Times, serif;
     color: #7161ef;
     text-decoration: none;
+    font-size: 15pt;
 }
