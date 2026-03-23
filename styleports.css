@@ -12,6 +12,6 @@ p{
     font-family: 'Times New Roman', Times, serif;
 }
 .side-border {
-  border-left: 3px solid black;
-  border-right: 3px solid black;
+  border-left: 100px solid #7161ef;
+  border-right: 3px solid #7161ef;
 }
