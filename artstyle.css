@@ -1,127 +1,58 @@
-body {
-    background-color: #dec0f1;
-}
-
-h1 {
-    color: #7161ef;
-    font-size: 24pt;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-p {
-    color: #7161ef;
-    font-size: 15pt;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.bottom-left {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    padding: 15px;
-}
-
-.resume-link {
-    color: #7161ef;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15pt;
-}
-
-.resume-link:hover {
-    color: #ffac81;
-}
-
-.bottom-left a {
-    color: #7161ef;
-    /* or any color you want */
-    text-decoration: none;
-    /* removes underline */
-}
-
-.bottom-left a:hover {
-    color: #ffac81;
-}
-
-.navbar .nav-link:hover {
-    color: #ffac81;
-    /* color when hovered */
-}
-
-.navbar .nav-link.active {
-    font-family: 'Times New Roman', Times, serif;
-    color: #7161ef;
-    /* color for the current page */
-    font-weight: bold;
-    /* optional for emphasis */
-    font-size: 15pt;
-}
-
-.navbar .nav-link {
-    font-family: 'Times New Roman', Times, serif;
-    color: #7161ef;
-    text-decoration: none;
-    font-size: 15pt;
-}
-
-.navbar-nav .nav-link {
-    margin-right: 30px;
-    /* space between links */
-}
-
-.navbar-nav .nav-link:last-child {
-    margin-right: 0;
-    /* remove extra space after last link */
-}
-
-/* Container */
-.image-container {
+/* Slideshow container */
+.slideshow-container {
   position: relative;
-  width: 300px;           /* adjust as needed */
+  max-width: 800px;
+  margin: auto;
   overflow: hidden;
+}
+
+/* Slides */
+.slide {
+  display: none;
+}
+
+/* Fading effect */
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Next & previous buttons */
+.prev, .next {
   cursor: pointer;
-}
-
-/* Image */
-.image-container img {
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: transform 0.5s ease;
-}
-
-/* Overlay */
-.image-container .overlay {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0,0,0,0.5); /* semi-transparent dark overlay */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-/* Arrow */
-.image-container .overlay .arrow {
-  font-size: 2rem;
+  top: 50%;
+  width: auto;
+  padding: 12px;
+  margin-top: -22px;
   color: white;
-  transition: transform 0.3s ease;
+  font-weight: bold;
+  font-size: 24px;
+  border-radius: 3px;
+  user-select: none;
+  background-color: rgba(0,0,0,0.5);
 }
 
-/* Hover effects */
-.image-container:hover img {
-  transform: scale(1.1);   /* zoom image slightly */
+.next { right: 0; }
+.prev { left: 0; }
+
+.prev:hover, .next:hover { background-color: rgba(0,0,0,0.8); }
+
+/* Dots */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 3px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
 }
 
-.image-container:hover .overlay {
-  opacity: 1;
-}
-
-.image-container:hover .arrow {
-  transform: translateX(10px);  /* arrow slides slightly on hover */
-}
+.active, .dot:hover { background-color: #717171; }
