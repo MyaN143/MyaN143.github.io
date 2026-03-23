@@ -20,13 +20,8 @@ p {
     /* space above the box */
     background-color: #f2f2f2;
     /* light gray background */
-    border-radius: 8px;
+    border-radius: 100px;
     /* rounded corners */
-}
-a{
-    color: #7161ef;
-    font-size: 15pt;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .bottom-left {
