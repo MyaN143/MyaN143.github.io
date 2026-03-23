@@ -13,3 +13,7 @@ p{
     max-width: 300px;
     height: auto;
 }
+img {
+    max-width: 300px; /* adjust size */
+    height: auto;
+}
