@@ -1,6 +1,6 @@
 /* Wrapper for consistent size */
 .image-wrapper {
-    height: 200px;
+    height: 80px;
     /* same height for all images */
     overflow: hidden;
     /* crop extra parts */
