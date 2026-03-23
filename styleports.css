@@ -14,9 +14,9 @@ p {
     font-family: 'Times New Roman', Times, serif;
     border: 2px solid black;
     /* border around the box */
-    padding: 15px;
+    padding: 150px;
     /* space inside the box */
-    margin-top: 200px;
+    margin-top: 20px;
     /* space above the box */
     background-color: #efd9ce;
     /* light gray background */
