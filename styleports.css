@@ -29,3 +29,10 @@ p {
   left: 0;
   padding: 15px;
 }
+.bottom-left a {
+  color: #7161ef;           /* or any color you want */
+  text-decoration: none;  /* removes underline */
+}
+.bottom-left a:hover {
+  color: #dec0f1;
+}
