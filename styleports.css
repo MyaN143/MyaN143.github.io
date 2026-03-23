@@ -45,21 +45,21 @@ p {
 }
 
 .navbar .nav-link:hover {
-  color: #ffac81;          /* color when hovered */
+    color: #ffac81;
+    /* color when hovered */
 }
+
 .navbar .nav-link.active {
-  color: #7161ef;;          /* color for the current page */
-  font-weight: bold;       /* optional for emphasis */
+    font-family: 'Times New Roman', Times, serif;
+    color: #7161ef;
+    ;
+    /* color for the current page */
+    font-weight: bold;
+    /* optional for emphasis */
 }
+
 .navbar .nav-link {
-  color: #7161ef;
-  text-decoration: none;
-}
-.navbar .nav-link.active {
-  color: #7161ef;;
-  font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
-}
-.navbar {
-  background-color: black;   /* dark background */
+    font-family: 'Times New Roman', Times, serif;
+    color: #7161ef;
+    text-decoration: none;
 }
