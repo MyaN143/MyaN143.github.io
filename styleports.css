@@ -65,5 +65,5 @@ p {
     font-size: 15pt;
 }
 .custom-navbar {
-  background-color: #3498db; /* any color you like */
+  background-color: #3498db !important;
 }
