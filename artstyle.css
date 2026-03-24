@@ -74,31 +74,3 @@ p {
     margin-right: 0;
     /* remove extra space after last link */
 }
-
-.row img {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border-radius: 8px;
-    /* optional */
-}
-
-/* Hover effect */
-.row img:hover {
-    transform: scale(1.1);
-    /* zoom */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-    /* shadow for depth */
-}
-
-.row img {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border-radius: 8px;
-    /* optional */
-}
-
-/* Hover effect */
-.row img:hover {
-    transform: scale(1.1);
-    /* zoom */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-    /* shadow for depth */
-}
