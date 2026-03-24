@@ -29,17 +29,6 @@ p {
     color: #ffac81;
 }
 
-.bottom-left a {
-    color: #7161ef;
-    /* or any color you want */
-    text-decoration: none;
-    /* removes underline */
-}
-
-.bottom-left a:hover {
-    color: #ffac81;
-}
-
 .navbar .nav-link:hover {
     color: #ffac81;
     /* color when hovered */
